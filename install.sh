@@ -100,9 +100,9 @@ services:
       - ALL
     cap_add:
       - NET_RAW
-      - KILL
       - SETUID
       - SETGID
+      - KILL
       - CHOWN
       - FOWNER
       - DAC_OVERRIDE
